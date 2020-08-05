@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         margin: 0;
-        padding: 0;
+        padding-top: 0px;
         line-height: 1;
         color: #202020;
         background-color: #fafafe;

@@ -4,8 +4,6 @@ import { App } from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-render(
-    <App />, document.getElementById('root')
-    );
+render(<App />, document.getElementById('root'));
 
 serviceWorker.register();
