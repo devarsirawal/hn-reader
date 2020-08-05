@@ -13,7 +13,7 @@ export const Story = memo(function Story({ storyId }) {
     return story && story.url ? (
         <StoryWrapper data-testid="story">
             <StoryTitle>
-                <a href={story.url}>{story.title}</a>
+                <a href={story.url} target="_blank" rel="noopener noreferrer">{story.title}</a>
             </StoryTitle>
             <StoryMeta>
                 <span data-testid="story-by">
